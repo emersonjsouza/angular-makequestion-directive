@@ -52,7 +52,6 @@ angular.module('esouza.makequestion', [])
                     if ($(item).data('isvalid')) {
                         correctAnswers++;
                     }
-
                     questions++;
                 });
 
