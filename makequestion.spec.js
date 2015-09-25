@@ -1,4 +1,4 @@
-describe('btfMarkdown', function () {
+describe('eszMakequestion', function () {
   var $compile,
       $rootScope;
 
@@ -17,6 +17,6 @@ describe('btfMarkdown', function () {
         };
         var elt = angular.element('<esz-makequestion question="question"></esz-makequestion>');
         $compile(elt)($rootScope);
-        expect(elt.html()).toBe('make question <input type="text" data-id="1" data-answers="is" class="tag-question"> awesome');
+        expect(elt.html()).toBe('make question <input data-id="1" data-answers="is" class="tag-question" type="text"> awesome');
     });
 });
