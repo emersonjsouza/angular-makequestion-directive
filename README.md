@@ -1,5 +1,7 @@
 # angular-makequestion-directive [![Build Status](https://travis-ci.org/emersonjsouza/angular-makequestion-directive.png)](https://travis-ci.org/emersonjsouza/angular-makequestion-directive)
 
+Angularjs makequestion add of simple way a question in your page
+
 ## Usage
 1. Include `jquery.js`. It should be located at `bower_components/jquery/`.
 2. Include `angular.js`. It should be located at `bower_components/angularjs/`.
