@@ -26,7 +26,7 @@ $scope.item = {
 You can call method `calcScore` to calculate how many question were correct, use eszMakeQuestionService as a dependency to your controller:
 
 ```javascript
-angular.module('myApp', ['btford.markdown'])
+angular.module('myApp', ['esouza.makequestion'])
 	.controller('myController', function($scope, eszMakeQuestionService) {
 		$scope.question = eszMakeQuestionService;
 	});
